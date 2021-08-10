@@ -18,11 +18,60 @@ body {
   color: #00072D;
 }
 
+.btn-outline-success {
+  color: #5AFFB0;
+  border-color: #5AFFB0;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: 500;
+}
+
+.btn-outline-success:hover {
+  background-color: #48cc8c;
+  border-color: #48cc8c;
+  color: #00072D;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.hero-line-left {
+  width: 190px;
+  height: 1px;
+  background: linear-gradient(270deg, #7951DD 0%, rgba(32, 164, 221, 0) 100%);
+  margin-top: 11px;
+  margin-right: 16px;
+}
+
+.hero-line-right {
+  width: 190px;
+  height: 1px;
+  background: linear-gradient(270deg, #7951DD 0%, rgba(32, 164, 221, 0) 100%);
+  margin-top: 11px;
+  transform: rotate(180deg);
+  margin-left: 16px;
+}
+
+.hero-title {
+  font-weight: 400;
+  font-size: 60px;
+  color: #FFFFFF;
+}
+
 .logo-wrapper {
   height: 24px;
   width: 24px;
   background: linear-gradient(225deg, #5AFF63 0%, #105685 100%);
   border-radius: 4px;
+}
+
+.mr-10-px {
+  margin-right: 10px;
+}
+
+.ml-10-px {
+  margin-left: 10px;
 }
 
 .navbar {
@@ -55,6 +104,11 @@ body {
 
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #48cc8c;
+}
+
+.polygon-logo {
+  height: 26px;
+  margin-left: 16px;
 }
 
 .primary-color {
