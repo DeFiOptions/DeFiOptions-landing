@@ -3,6 +3,25 @@ body {
   background: linear-gradient(180deg, #00072D 0%, #000520 100%);
 }
 
+.btn-social:hover {
+  background-color: #00072D;
+  border-color: #5AFFB0;
+  color: #5AFFB0;
+}
+
+.btn-social {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  background-color: #5AFFB0;
+  border-color: #5AFFB0;
+  color: #00072D;
+}
+
 .btn-success {
   background-color: #5AFFB0;
   border-color: #5AFFB0;
@@ -53,6 +72,10 @@ body {
   font-weight: 400;
 }
 
+.footer-text {
+  font-size: 14px;
+}
+
 .hero {
   margin-top: 150px;
   margin-bottom: 100px;
@@ -89,6 +112,10 @@ body {
   margin-left: 10px;
 }
 
+.ml-40-px {
+  margin-left: 40px;
+}
+
 .navbar {
   min-height: 40px;
   margin-top: 30px;
@@ -109,7 +136,6 @@ body {
 }
 
 .nav-item {
-  margin-left: 40px;
   color: #5AFFB0;
   font-weight: 500;
 }
