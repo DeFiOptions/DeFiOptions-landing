@@ -32,8 +32,24 @@ body {
   color: #00072D;
 }
 
+.feature-image {
+  margin-bottom: 24px;
+}
+
+.feature-text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.feature-title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .hero {
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 .hero-line-left {
@@ -59,13 +75,6 @@ body {
   color: #FFFFFF;
 }
 
-.logo-wrapper {
-  height: 24px;
-  width: 24px;
-  background: linear-gradient(225deg, #5AFF63 0%, #105685 100%);
-  border-radius: 4px;
-}
-
 .mr-10-px {
   margin-right: 10px;
 }
@@ -75,8 +84,9 @@ body {
 }
 
 .navbar {
-  min-height: 127px;
-  padding: 0 40px 0 40px;
+  min-height: 40px;
+  margin-top: 30px;
+  padding: 0 120px 0 120px;
 }
 
 .navbar-dark .navbar-brand {
@@ -117,4 +127,24 @@ body {
 
 .primary-color:hover {
   color: #48cc8c;
+}
+
+.section-title {
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.why-options-col {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    min-height: 30px;
+    margin-top: 30px;
+    padding: 0 20px 0 20px;
+  }
 }
