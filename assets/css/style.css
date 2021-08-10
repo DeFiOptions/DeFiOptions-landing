@@ -140,6 +140,12 @@ body {
   color: #48cc8c;
 }
 
+.section-divider {
+  background: linear-gradient(270deg, rgba(32, 164, 221, 0) 0%, #5AFFB0 48.96%, rgba(32, 164, 221, 0) 100%);
+  width: 220px;
+  height: 1px;
+}
+
 .section-title {
   font-weight: 400;
   font-size: 32px;
