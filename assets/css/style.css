@@ -13,9 +13,9 @@ body {
 }
 
 .btn-success:hover {
-  background-color: #48cc8c;
-  border-color: #48cc8c;
-  color: #00072D;
+  background-color: #00072D;
+  border-color: #5AFFB0;
+  color: #5AFFB0;
 }
 
 .btn-outline-success {
@@ -27,8 +27,8 @@ body {
 }
 
 .btn-outline-success:hover {
-  background-color: #48cc8c;
-  border-color: #48cc8c;
+  background-color: #5AFFB0;
+  border-color: #5AFFB0;
   color: #00072D;
 }
 
