@@ -213,3 +213,38 @@ body {
     padding: 0 20px 0 20px;
   }
 }
+
+/* iPhone 8 */
+@media screen and (max-width: 375px) {
+  .hero-title {
+    font-size: 50px;
+  }
+}
+
+/* iPhone SE */
+@media screen and (max-width: 320px) {
+  .hero-title {
+    font-size: 45px;
+  }
+
+  .btn-success {
+    background-color: #5AFFB0;
+    border-color: #5AFFB0;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: #00072D;
+    font-weight: 500;
+  }
+  
+  .btn-outline-success {
+    color: #5AFFB0;
+    border-color: #5AFFB0;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-weight: 500;
+  }
+
+  .ml-40-px {
+    margin-left: 30px;
+  }
+}
