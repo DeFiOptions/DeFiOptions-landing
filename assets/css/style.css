@@ -3,6 +3,10 @@ body {
   background: linear-gradient(180deg, #00072D 0%, #000520 100%);
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+
 .btn-social:hover {
   background-color: #00072D;
   border-color: #5AFFB0;
@@ -247,4 +251,10 @@ body {
   .ml-40-px {
     margin-left: 30px;
   }
+}
+
+.disclaimer-text {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: justify;
 }
