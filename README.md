@@ -4,7 +4,7 @@
 
 The website is accessible here: [https://defioptions.github.io/defioptions-landing/](https://defioptions.github.io/defioptions-landing/).
 
-Once the subdomain is set, it will be accessible through [defioptions.org](defioptions.org).
+Once the subdomain is set, it will be accessible through [https://defioptions.org](https://defioptions.org).
 
 ### Preview
 
