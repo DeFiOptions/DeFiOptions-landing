@@ -55,6 +55,15 @@ body {
   color: #00072D;
 }
 
+.disclaimer-text {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  color: #cfd1d4;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .feature-image {
   margin-bottom: 24px;
 }
@@ -251,11 +260,4 @@ body {
   .ml-40-px {
     margin-left: 30px;
   }
-}
-
-.disclaimer-text {
-  font-size: 12px;
-  font-weight: 300;
-  text-align: justify;
-  color: white;
 }
