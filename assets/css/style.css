@@ -169,9 +169,22 @@ body {
   color: #48cc8c;
 }
 
-.peckshield {
-  margin-bottom: 50px;
-  margin-top: 40px;
+.peckshield-banner {
+  margin-top: 50px;
+  padding: 40px;
+  background: linear-gradient(181.09deg, #105685 20.74%, #0B1448 99.52%);
+  border-radius: 8px;
+  width: 70%;
+}
+
+.peckshield-image {
+  max-height: 200px;
+}
+
+.peckshield-title {
+  font-size: 32px;
+  font-weight: 400;
+  color: #5AFFB0;
 }
 
 .polygon-logo {
@@ -247,6 +260,32 @@ body {
   .hero {
     margin-top: 80px;
     margin-bottom: 40px;
+  }
+
+  .peckshield-banner {
+    margin-top: 10px;
+    padding: 20px;
+  }
+
+  .peckshield-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 11px;
+  }
+
+  .peckshield-title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #5AFFB0;
+    text-align: center;
+  }
+
+  .peckshield-description {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
   }
 }
 
