@@ -91,7 +91,11 @@ body {
 
 .hero {
   margin-top: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
+}
+
+.hero-buttons {
+  margin-top: 70px;
 }
 
 .hero-line-left {
@@ -201,6 +205,20 @@ body {
   margin-bottom: 40px;
 }
 
+@media (min-width: 1600px) {
+  body {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (min-width: 1800px) {
+  body {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
 @media (min-width: 770px) {
   .divider-left {
     position: relative;
@@ -224,6 +242,11 @@ body {
     min-height: 30px;
     margin-top: 30px;
     padding: 0 20px 0 20px;
+  }
+
+  .hero {
+    margin-top: 80px;
+    margin-bottom: 40px;
   }
 }
 
